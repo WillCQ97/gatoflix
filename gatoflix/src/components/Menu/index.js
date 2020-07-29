@@ -2,10 +2,9 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import Logo from '../../assets/img/Logo.png';
+import Logo from '../../assets/img/gatoflix-logo.png';
 import Button from '../Button';
 import './Menu.css';
-//import ButtonLink from './components/ButtonLink';
 
 function Menu() {
     return (

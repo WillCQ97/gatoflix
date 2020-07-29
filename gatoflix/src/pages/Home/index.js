@@ -7,7 +7,7 @@ import Dados from '../../data/dados_iniciais.json';
 
 function Home() {
     return (
-        <nav className="App">
+        <nav className="Home">
             <Menu />
             <BannerMain url="https://www.youtube.com/watch?v=ZY3-MFxVdEw" />
             <Carousel category={Dados.categorias[0]} />
