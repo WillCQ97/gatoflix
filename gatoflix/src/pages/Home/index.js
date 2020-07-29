@@ -9,13 +9,14 @@ function Home() {
     return (
         <nav className="Home">
             <Menu />
-            <BannerMain url="https://www.youtube.com/watch?v=ZY3-MFxVdEw" />
+            <BannerMain 
+                videoTitle="Gatos e dominós"
+                videoDescription="Afinal de contas, por que não assistir a gatos derrubando dominós?"
+                url="https://youtu.be/7Nn7NZI_LN4" 
+            />
             <Carousel category={Dados.categorias[0]} />
             <Carousel category={Dados.categorias[1]} />
             <Carousel category={Dados.categorias[2]} />
-            <Carousel category={Dados.categorias[3]} />
-            <Carousel category={Dados.categorias[4]} />
-            <Carousel category={Dados.categorias[5]} />
             <Footer />
         </nav>
     );
