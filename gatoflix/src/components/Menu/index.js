@@ -1,22 +1,21 @@
 import React from 'react';
-
 import { Link } from 'react-router-dom';
 
-import Logo from '../../assets/img/gatoflix-logo.png';
 import Button from '../Button';
-import './Menu.css';
+import Logo from '../../assets/img/gatoflix-logo.png';
+import { LogoImage, MenuWrapper } from './style.js';
 
 function Menu() {
     return (
-        <nav className="Menu">
+        <MenuWrapper className="Menu">
             <Link to="/">
-                <img className="Logo" src={Logo} alt="GatoFlix logo"/>
+                <LogoImage src={Logo} alt="Gatoflix logo" />
             </Link>
 
             <Button as={Link} className="ButtonLink" to="/cadastro/video">
                 Novo vídeo
             </Button>
-        </nav>
+        </MenuWrapper>
     );
 }
 
