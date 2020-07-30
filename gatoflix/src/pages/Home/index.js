@@ -9,10 +9,6 @@ import Dados from '../../data/dados_iniciais.json';
 
 const HomeWrapper = styled.nav`
     background-color: var(--grayDark);
-
-    @media(max-width: 800px){
-        padding-top: 40px;
-    }
 `;
 
 function Home() {

@@ -12,7 +12,7 @@ const Button = styled.button`
 
     &:hover,
     &:focus {
-        opacity: .5
+        opacity: .8
     }
 
     @media(max-width: 800px){
