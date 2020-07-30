@@ -5,12 +5,17 @@ import Menu from '../Menu';
 import Footer from '../Footer';
 
 const Main = styled.main`
+
     background-color: var(--black);
     color: var(--white);
     flex: 1;
-    padding-top: 50 px;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 94px;
+
+    @media(max-width: 800px){
+        padding-top: 40px;
+    }
 `;
 
 function PageDefault({ children }) {
