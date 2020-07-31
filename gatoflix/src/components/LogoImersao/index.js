@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 import logo from '../../assets/img/imersao-react-logo.svg';
 
 /* exemplo de styled components */
