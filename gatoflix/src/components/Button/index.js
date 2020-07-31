@@ -12,7 +12,7 @@ const Button = styled.button`
 
     &:hover,
     &:focus {
-        opacity: .8
+        opacity: .5
     }
 
     @media(max-width: 800px){
@@ -26,6 +26,13 @@ const Button = styled.button`
         position: fixed;
         right: 0;
         text-align: center;
+
+        &:hover,
+        &:focus {
+            opacity: 1;
+            color: var(--grayMedium);
+            text-shadow: 1px 1px 2px var(--grayDark);
+        }
     }
 `;
 
