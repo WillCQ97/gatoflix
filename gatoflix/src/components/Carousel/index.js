@@ -9,7 +9,6 @@ function Carousel({ ignoreFirstVideo, category, }) {
     const categoryTitle = category.titulo;
     const categoryColor = category.cor;
     const categoryDescription = category.descricao;
-    const categoryExtraLink = category.link_extra;
     const videos = category.videos;
 
     return (
