@@ -86,7 +86,6 @@ ContentAreaContainer.Description = styled.p`
 `;
 
 export const WatchButton = styled.button`
-    
     background-color: var(--white);
     border: 0;
     border-radius: 4px;
@@ -110,5 +109,4 @@ export const WatchButton = styled.button`
     @media (max-width: 800px) {
         display: block;
     }
-
 `;
