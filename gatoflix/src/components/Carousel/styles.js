@@ -23,6 +23,18 @@ export const Title = styled.h3`
     }
 `;
 
+export const Description = styled.p`
+    display: inline-block;
+    margin-left: 16px;
+    text-decoration: none;
+    
+    @media (max-width: 800px) {
+        display: block;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+`;
+
 export const ExtraLink = styled.a`
     margin-left: 16px;
     text-decoration: none;

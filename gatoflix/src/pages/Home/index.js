@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Menu from '../../components/Menu';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
 import Dados from '../../data/dados_iniciais.json';
+import Footer from '../../components/Footer';
+import Menu from '../../components/Menu';
 
 const HomeWrapper = styled.nav`
     background-color: var(--grayDark);

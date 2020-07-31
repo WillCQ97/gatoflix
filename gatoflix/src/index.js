@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import './reset.css';
-import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
+import CadastroVideo from './pages/cadastro/Video';
 import Home from './pages/Home';
 import ResourceNotFound from './pages/ResourceNotFound';
 

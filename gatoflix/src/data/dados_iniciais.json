@@ -2,10 +2,10 @@
     "categorias": [
         {
             "titulo": "Simon, the cat",
-            "link": "",
             "cor": "#e63929",
-            "link_extra": {
-                "text": "Veja no Youtube",
+            "descricao": "Série animada que mostra as travessuras de um gato branco gordo e de seu dono Simon.",
+            "link": {
+                "text": "Canal no youtube",
                 "url": "https://www.youtube.com/channel/UCH6vXjt-BA7QHl0KnfL-7RQ"
             },
             "videos": [
@@ -35,8 +35,9 @@
             "titulo": "Desenhos antigos",
             "link": "",
             "cor": "#65867b",
+            "descricao": "Alguns episódios com o Gato Félix, Tom e Jerry, a Pantera cor-de-rosa ou outros felinos conhecidos.",
             "link_extra": {
-                "text": "Personagens antigos, nem por isso desconhecidos",
+                "text": "",
                 "url": ""
             },
             "videos": [
@@ -78,8 +79,9 @@
             "titulo": "Extras",
             "link": "",
             "cor": "",
+            "descricao": "Conteúdo adicional",
             "link_extra": {
-                "text": "Conteúdo adicional",
+                "text": "",
                 "url": ""
             },
             "videos": [
