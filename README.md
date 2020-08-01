@@ -6,7 +6,7 @@ Tópicos ensinados:
 - Aula 01 React Components e AluraFlix;
 - Aula 02 Roteamento e state;
 - Aula 03 Formulários reutilizáveis e mais components;
-- Aula 04
+- Aula 04 Ajax, validação e back-end;
 - Aula 05
 
 Conteúdo de terceiros:

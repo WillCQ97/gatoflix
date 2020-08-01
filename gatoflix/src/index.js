@@ -9,13 +9,13 @@ import Home from './pages/Home';
 import ResourceNotFound from './pages/ResourceNotFound';
 
 ReactDOM.render(
-    <BrowserRouter>
-        <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/cadastro/video" exact component={CadastroVideo} />
-            <Route path="/cadastro/categoria" exact component={CadastroCategoria} />
-            <Route component={ResourceNotFound} />
-        </Switch>
-    </BrowserRouter>,
-    document.getElementById('root')
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" exact component={Home} />
+      <Route path="/cadastro/video" exact component={CadastroVideo} />
+      <Route path="/cadastro/categoria" exact component={CadastroCategoria} />
+      <Route component={ResourceNotFound} />
+    </Switch>
+  </BrowserRouter>,
+  document.getElementById('root'),
 );
