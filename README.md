@@ -7,7 +7,7 @@ Tópicos ensinados:
 - Aula 02 Roteamento e state;
 - Aula 03 Formulários reutilizáveis e mais components;
 - Aula 04 Ajax, validação e back-end;
-- Aula 05
+- Aula 05 Gerenciamento de videos com React e JavaScript;
 
 Conteúdo de terceiros:
 - [Logo do site](https://icon-icons.com/pt/icone/o-peixe-gato-o-gato/103864) por [Jeremiah](https://jeremiahfoster.com/). Licença: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
